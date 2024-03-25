@@ -1,0 +1,134 @@
+.hidden {
+	display: none;
+}
+
+#bgImg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -10;
+	width: 100%;
+	height: 100%;
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	color: white;
+}
+
+div#userInfo {	
+	text-align: center;
+	margin-top: 10rem;	
+}
+
+h2#hello {
+	margin-bottom: 50px;
+	font-size: 3rem;
+}
+
+form#userInfoForm {
+	width: 100%;
+	text-align: center;	
+}
+/* form#userInfoForm input {
+	width: 40%;
+	border-bottom: solid 2px white;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	background: none;
+	text-align: center;
+	font-size: 2rem;
+} */
+
+div#components_block {
+	text-align: center;
+	margin-top: 170px;
+}
+div#weather {
+	position: absolute;
+	top:20px;
+	right:40px;
+}
+h1#clock {
+	font-size: 4rem;
+	margin-bottom: 30px;
+}
+div#greeting span:first-child {
+	font-size: 2.5rem;
+}
+div#greeting span:nth-child(2) {
+	font-size: 2.5rem;
+}
+div#quotes {
+	margin-top: 50px;
+}
+form#todayGoal {
+	margin-top: 100px;
+}
+.myGoalBox {
+	margin-top: 100px;
+}
+.myGoal {
+	margin-top:100px;
+	font-size: 3rem;
+}
+.goalEdit {
+	width: 70px;
+	background-color: chocolate;
+	border-radius: 20px;
+	border:none;
+}
+.todoBtn {
+	width: 150px;
+	height: 60px;
+	border-radius: 20px;
+	margin-bottom: 100px;
+	color: black;
+	font-size: 2rem;
+}
+#todoListBox {
+	text-align: center;
+	margin-left: 50px;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 30px;
+	padding: 20px;	
+}
+.inputBox {	
+	width: 70%;
+	border-bottom: solid 2px white;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	background: none;
+	text-align: center;
+	font-size: 2rem;
+}
+#todoList{
+	margin-top: 20px;
+}
+#todoList li {
+	list-style: none;
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 10;
+}
+	#todoList li:hover {
+		color: blueviolet;
+	}
+#todoDelBtn {
+	margin-left: 10px;
+	border-radius: 20px;
+	background-color: crimson;
+	border: none;
+}
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

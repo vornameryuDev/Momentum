@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Momentum</title>	
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="container">
+		<!-- username block-->
+		<div id="userInfo">
+			<h2 id="hello">Hello! What's your name?</h1>
+			<form id="userInfoForm">
+				<input class="inputBox" required maxlength="10" type="text" placeholder="">
+			</form>
+		</div>
+		
+		<!-- weather, clock, user, todo, quotes block -->
+		<div id="components_block" class="hidden">
+			<div id="weather">
+				<span>weather</span>
+				<span>'F / </span>
+				<span>city</span>
+			</div>
+			<button class="todoBtn">To Do</button>
+			<h1 id="clock">00:00</h1>
+			<div id="greeting">
+				<span>Good Morning</span>
+				<span id="user">sss</span>
+			</div>
+			<form id="todayGoal">
+				<input class="inputBox" type="text" placeholder="Write your Goal">
+			</form>
+			<div class="hidden myGoalBox">				
+				<span class="myGoal"></span>
+				<button class="goalEdit">edit</button>
+			</div>
+			<div id="quotes">
+				<span>qoute</span>
+				<span>author</span>
+			</div>
+		</div>
+	
+		<div id="todoListBox" class="hidden">
+			<form id="todoForm">
+				<input style="width:100%;" class="inputBox" type="text" placeholder="write your todo"">
+			</form>
+			<ul id="todoList"></ul>
+		</div>
+	</div>
+
+	
+
+
+	<script src="js/clock.js"></script>
+	<script src="js/userInfo.js"></script>
+	<script src="js/username.js"></script>
+	<script src="js/weather.js"></script>
+	<script src="js/quotes.js"></script>
+	<script src="js/background.js"></script>
+	<script src="js/goal.js"></script>
+	<script src="js/todo.js"></script>
+
+</body>
+</html>
