@@ -1,13 +1,14 @@
-# Momentum
+# Momentum (https://momentumclone94ryu.netlify.app/)
 Chrome Extention Momentum Cloning Project
 
-HTML, CSS, vanillaJS를 통해 Chrome extention중 일정관리를 위한 Momentum을 클로닝한 프로젝트
+Chrome extention중 일정관리를 위한 Momentum app을 HTML, CSS, vanillaJS를 통해 클로닝한 프로젝트
 
 toggle, fetch, API, form(event prevent) 등 기능 사용
 
 Math 함수를 통해 배경이미지와 명언 랜덤화
 
 매 초마다 시간 확인 할 수 있도록 함
+
 
 ![image](https://github.com/vornameryuDev/Momentum/assets/164843831/b7ecacf2-7701-4b31-b535-414656b4c237)
 ![image](https://github.com/vornameryuDev/Momentum/assets/164843831/acf6679a-6079-4032-a1d6-371b9c37fc58)
